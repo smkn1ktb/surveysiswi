@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terima Kasih! 💖</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { 
+      font-family: 'Poppins', sans-serif; 
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 28px;
+      padding: 50px 30px;
+      max-width: 480px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 25px 60px rgba(0,0,0,0.2);
+      animation: fadeIn 0.8s ease-out;
+    }
+    @keyframes fadeIn {
+      from { opacity:0; transform:translateY(30px); }
+      to { opacity:1; transform:translateY(0); }
+    }
+    h1 {
+      font-size: 32px;
+      color: #333;
+      margin-bottom: 16px;
+    }
+    .emoji {
+      font-size: 60px;
+      margin-bottom: 20px;
+      display: block;
+      animation: bounce 2s infinite;
+    }
+    @keyframes bounce {
+      0%,100% { transform:translateY(0); }
+      50% { transform:translateY(-15px); }
+    }
+    p {
+      font-size: 17px;
+      color: #555;
+      line-height: 1.6;
+      margin-bottom: 40px;
+    }
+    .btn {
+      display: inline-block;
+      background: linear-gradient(to right, #ff6b9d, #ff8cb4);
+      color: white;
+      font-size: 17px;
+      font-weight: 600;
+      padding: 16px 40px;
+      border-radius: 50px;
+      text-decoration: none;
+      box-shadow: 0 10px 30px rgba(255,107,157,0.4);
+      transition: all 0.3s;
+    }
+    .btn:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 40px rgba(255,107,157,0.5);
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="emoji">✨💖✨</div>
+    <h1>Terima Kasih Banyak Ya!</h1>
+    <p>Kamu luar biasa sudah mau jujur dan mengisi Survey-nya sampai selesai 😊<br>Data kamu sudah masuk dengan aman & 100% anonim kok ♡</p>
+    
+    <a href="index.php" class="btn">Isi Lagi untuk Teman</a>
+  </div>
+</body>
+</html>
